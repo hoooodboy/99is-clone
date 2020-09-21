@@ -38,7 +38,6 @@ body {
     display: block;
     height: 30px;
     justify-content: start;
-    width: %;
 }
 
 .input--text {
@@ -241,4 +240,27 @@ form input:nth-child(2) {
     width: 60%;
     margin:25px;
     cursor: pointer;
+}
+
+footer {
+    border-top: 1px solid #000;
+    margin: 0 100px;
+}
+
+.contact {
+    margin: 20px;
+    margin-bottom: 100px;
+
+    display: inline-block;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right {
+    float: right;
+    margin: 20px;
+
 }
